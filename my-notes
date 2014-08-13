@@ -1,0 +1,64 @@
+BIG O NOTATION
+==============
+
+Try to be at questions
+(finished with variable domination)
+by 2nd break
+
+--
+
+What is it?
+  Notation to describe time coplexity
+  Approximates number of operations
+  It's an upper bound
+Upper bound
+  so we can quickly categorize algorithms
+  and know what to expect in terms of scalability
+What does it look like? / mean
+  O(n) = "Big Oh of n"
+  n is # of inputs
+  show prediction of 4x longer for n*n
+Variable doesn't matter
+  O(x) vs O(n)
+Approximate how long an algorithm takes
+  algorithm suggests topics based on user input
+  100 topics takes 1 sec
+  how long for 200, 400?
+  how does it grow?
+How it grows vs Actual values
+  n, 2n, etc don't matter
+  show math for O(n)
+  show math for O(n*n)
+  Look at graph, they are all straight lines
+Binary Search vs Sequential Search
+  8 sorted items
+  sequential search
+    what is time complexity?
+    max vs average... does it matter?
+  binary search
+    what is time complexity?
+    show visually on board
+    show math to find values
+Common time complexities
+  Notice the patterns
+  Notice there are values where worse time complexity is faster
+Example Bubble vs Merge sort
+  Do they know how merge sort works?
+  What are time complexities
+  Run the program see values
+  Show the math, it comes out very close to what we expect
+  Explain why not exactly
+  Run program with big numbers
+  If time permits, put the equations over the top
+When one variable dominates another
+  Example to show we ignore dominated value
+Questions:
+  Time complexity to get first item
+  Deathmatch of time complexities (Big Omg!)
+  Time complexities of algo that iterates twice
+  Time complexity of algo that iterates once
+  Time complexity of algo that iterates once per iteration
+  When n is tiny
+  When n is large
+  Who gives a shit?
+  Based on description of algorithm, what is time complexity?

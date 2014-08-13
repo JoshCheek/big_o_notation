@@ -22,6 +22,15 @@ and assuming that in general, an operation will take a constant amount of time,
 and so it is the number of operations, relative to the number of inputs,
 which drives the time complexity.
 
+## Big O is an upper bound
+
+The actual time taken will vary, but Big O lets us discuss it in simple terms.
+Specifically, it says that as we get larger and larger input values,
+that the big o notation will be an upper bound. In other words, the time
+to perform the algorithm won't exceed the value predicted.
+
+This is useful because it allows us to quickly categorize the efficiency of algorithms.
+
 
 ## What does it look like, what does it mean?
 
@@ -191,6 +200,9 @@ In the time_sort_algorithms directory, there is a program,
 and a merge sort. It randomly generates arrays up to a given size
 and then sorts them using the two algorithms.
 
+**Question: What are the time complexities?**
+
+
 First, lets try with a few values so we can see:
 ```
 $ ruby bubble_vs_merge_sort.rb 100 1000 1000 10000
@@ -234,10 +246,6 @@ If we take these points (they will vary slightly for each run)
 and graph them, we get:
 
 ![bubble sort vs merge sort](time_sort_algorithms/bubble-vs-merge.png)
-
-**Question: What are the time complexities?**
-
-Lets graph these and fit the lines to them!
 
 
 ## When one variable dominates the others

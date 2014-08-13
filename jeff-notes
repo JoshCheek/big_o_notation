@@ -1,0 +1,25 @@
+thinking about efficiency and performance
+and to understand how the algorithm scales with the amount of data in it
+ie if you have 50 pieces of data, doesn't matter what algorithm
+but if you have 50 million pieces of data, then the algorithm can make a tremendous difference
+sorting is the canonical example
+e.g. bubble sort is easy to implement, has x operations
+     merge sort has many more operations
+
+ideal outcomes:
+  can recognize common scaling patterns
+  e.g. select = increases linearally
+       loops within loops = n**2
+  at least understand that we categorize algos by their complexity
+  and the thing that defines this is how it grows/scaples, constants don't matter
+
+O notation = worst case
+if I showed a graph of
+
+things like detect
+  if it finds it first time vs last time vs average time
+
+the size of the data affects worst case and "shape" of data affects
+
+spend a couple minutes prob at the end of graphs of common measures
+e.g. constant time, linear, n squared, etc

@@ -356,9 +356,7 @@ programming language, and even hardware. You'd have to analyze the specific
 type of data and the specific implementation to find the answer.
 
 Many serious sorting algorithms will switch from one type to another
-depending on the size of the data. E.g. a quick sort until the array
-to be merged is 9 items in size, then switch over to an insertion sort
-([example](http://megocode3.wordpress.com/2008/01/28/8/)).
+depending on the size of the data. E.g. V8 switches from quick sort to insertion sort when the array has 10 or fewer items [link](https://github.com/v8/v8/blob/e63a48ac5cd810a668f9960d088e43946aa87f2e/src/js/array.js#L810-L814).
 
 ## Question: How seriously should I take this
 

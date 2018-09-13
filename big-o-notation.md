@@ -49,7 +49,7 @@ which is `2 minutes`.
 
 ## The variable name doesn't matter
 
-`O(x)` and `O(x)` are the same thing, we just changed the name of the variable.
+`O(n)` and `O(x)` are the same thing, we just changed the name of the variable.
 
 Typically, people use `x` when talking about a mathematical equation,
 and `n` when talking about a discrete number of operations across a collection.
